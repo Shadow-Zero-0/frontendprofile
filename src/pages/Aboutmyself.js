@@ -1,4 +1,5 @@
 import { Box, Stack, Typography } from "@mui/material";
+import { Link } from "react-router-dom";
 
 const Aboutmyself = () => {
   const drawerWidth = 240;
@@ -29,7 +30,13 @@ const Aboutmyself = () => {
           Redux Toolkit,json-server )]</Typography>
       </div>
       <div>
-        <Typography m={2} variant="h4" color="primary">
+      <Typography m={2} variant="h4" color="primary">
+          <Link style={{
+                textDecoration: 'none',
+            textDecoration: 'none',
+            color: '#027777'
+          }} to='https://www.facebook.com'>للتواصل معي علي الفيس بوك</Link>
+        </Typography><Typography m={2} variant="h4" color="primary">
           الشهادات
         </Typography>
 <Stack className="imgase">
