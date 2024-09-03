@@ -19,7 +19,7 @@ const Home = () => {
       <Stack
         mt={10}
         sx={{
-          marginLeft: `${drawerWidth}px`,
+             marginLeft:{xs:'0' ,sm:`${drawerWidth}px`},
           flexDirection: "row",
           flexWrap: "wrap",
           justifyContent: "center",
@@ -34,7 +34,7 @@ const Home = () => {
       <Stack
         mt={10}
         sx={{
-          marginLeft: `${drawerWidth}px`,
+             marginLeft:{xs:'0' ,sm:`${drawerWidth}px`},
           flexDirection: "row",
           flexWrap: "wrap",
           justifyContent: "center",
