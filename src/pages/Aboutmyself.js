@@ -8,7 +8,7 @@ const Aboutmyself = () => {
       dir="auto"
       mt={10}
       sx={{
-        marginLeft: `${drawerWidth}px`,
+           marginLeft:{xs:'0' ,sm:`${drawerWidth}px`},
       }}
     >
       <div>
