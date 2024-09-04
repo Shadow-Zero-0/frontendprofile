@@ -6,7 +6,12 @@
   font-size: 17px !important;
   font-weight: 600 !important;
 }
-
+@media (Max-width:300px){
+  .section{
+  font-size: 15px !important;
+ 
+}
+}
 .Avater{
   border-radius: 5px !important;
   width: 400px !important;
