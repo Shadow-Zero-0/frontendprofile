@@ -27,7 +27,7 @@ const Aboutmyself = () => {
           انا متعلم برمجه المواقع (front end development) والغات الخاصه بالتطوير
         </Typography>
         <Typography mr={2} variant="h5" > [html,css,javascript,react.js(firebase, Node.js API,
-          Redux Toolkit,json-server )]</Typography>
+          Redux Toolkit,json-server,framer-motion,material-ui )]</Typography>
       </div>
       <div>
       <Typography m={2} variant="h4" color="primary">
@@ -40,13 +40,8 @@ const Aboutmyself = () => {
           الشهادات
         </Typography>
 <Stack className="imgase">
-  
-     
-   
-          <img className="Avater" alt="" src="https://res.cloudinary.com/dtomtlfcs/image/upload/v1725235730/ASACC_xq7s0o.png" />
 
-          
-       
+          <img className="Avater" alt="" src="https://res.cloudinary.com/dtomtlfcs/image/upload/v1725235730/ASACC_xq7s0o.png" />
           <img className="Avater" alt="" src="https://res.cloudinary.com/dtomtlfcs/image/upload/v1725235730/FDSDFSEF_cbqmp2.png" />
           <img className="Avater" alt="" src="https://res.cloudinary.com/dtomtlfcs/image/upload/v1725235730/ASASD_pnu8uc.png" />
           <img className="Avater" alt="" src="https://res.cloudinary.com/dtomtlfcs/image/upload/v1725235729/ASDFASD_cazo29.png" />
